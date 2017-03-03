@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pet Shop</string>
+    <string name="BorderCollieR$800">Border Collie R$800</string>
+    <string name="PitBullR$750">Pit Bull R$750</string>
+    <string name="PastorAlemaoR$700">Pastor Alemão R$700</string>
+</resources>
