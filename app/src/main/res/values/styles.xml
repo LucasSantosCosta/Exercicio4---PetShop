@@ -8,4 +8,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="estilo_desc_app">
+        <item name="android:textColor">@color/vermelho</item>
+        <item name="android:textSize">@dimen/tam</item>
+
+    </style>
+
+    <style name="estilo_calc">
+        <item name="android:textColor">@color/cinza</item>
+        <item name="android:textSize">@dimen/Calc</item>
+
+    </style>
+
 </resources>

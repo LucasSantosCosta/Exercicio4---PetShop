@@ -2,4 +2,9 @@
 <resources>
     <string name="PitBullR$750">Pit Bull R$750</string>
     <string name="PastorAlemaoR$700">Pastor Alemão R$700</string>
+    <string name="PastorCanadenseR$800">Pastor Canadense R$800</string>
+    <string name="femea">Fêmea</string>
+    <string name="adestrado">Adestrado</string>
+    <string name="Vacinas">Com todas as vacinas em dia</string>
+    <string name="calcular">CALCULAR</string>
 </resources>

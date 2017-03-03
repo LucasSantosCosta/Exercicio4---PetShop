@@ -43,11 +43,45 @@
             android:text="@string/PastorAlemaoR$700"
             android:id="@+id/pastoralemao"/>
 
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PastorCanadenseR$800"
+            android:id="@+id/radio_pastorCanade4"/>
     </RadioGroup>
 
     <CheckBox
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Femea"
+        android:id="@+id/check_femea1"/>
 
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adestrado"
+        android:id="@+id/check_adestra2"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Vacinas"
+        android:id="@+id/check_vacinas3"
+        android:checked="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:layout_marginBottom="@dimen/margin_Bot"
+        android:onClick="calcular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$ 00,00"
+        style="@style/estilo_calc"
+        android:layout_gravity="center"
+        android:id="@+id/txtValor"/>
 
 </LinearLayout>
