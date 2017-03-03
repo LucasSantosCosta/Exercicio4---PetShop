@@ -29,6 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="@string/BorderCollieR$800"
+            android:id="@+id/bCollie"
             android:checked="true"/>
 
         <RadioButton
@@ -47,26 +48,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/PastorCanadenseR$800"
-            android:id="@+id/radio_pastorCanade4"/>
+            android:id="@+id/pastorcanadense"/>
     </RadioGroup>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Femea"
-        android:id="@+id/check_femea1"/>
+        android:id="@+id/ck_femea"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/adestrado"
-        android:id="@+id/check_adestra2"/>
+        android:id="@+id/ck_adestrado"/>
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/Vacinas"
-        android:id="@+id/check_vacinas3"
+        android:id="@+id/ck_vacinas"
         android:checked="true"/>
 
     <Button
